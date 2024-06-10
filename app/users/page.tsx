@@ -7,7 +7,7 @@ import { RxButton } from "react-icons/rx";
 export default function Home() {
   return (
     <body>
-      <nav className="bg-white border-gray-200 dark:bg-gray-900 ">
+      <nav className="bg-white border-gray-200 dark:bg-white">
         <div className="max-w-screen-xl  flex flex-wrap justify-between items-center mx-auto w-full p-4">
           <div className="flex content-end text-2xl">
             < MdMenu />
@@ -24,15 +24,15 @@ export default function Home() {
           </div>
         </div>
       </nav>
-      <nav className="bg-cyan-500 dark:bg-gray-700 w-full overflow-x-auto  ">
-        <div className="max-w-full px-3 py-3 max-auto">
-          <div className="flex items-center text-lg">
+      <nav className="bg-cyan-500 dark:bg-gray-700 w-full overflow-x-auto ">
+        <div className="max-w-full px-4 py-3 mx-auto">
+          <div className="flex items-center">
             <ul className="flex flex-row font-medium mt-0  rtl:space-x-reverse text-sm justify-between items-center">
-              <div className="flex items-center space-x-5">
+              <div className="flex items-center space-x-10">
                 <li>
                   <a
                     href="#"
-                    className="text-gray-900 dark:text-white hover:underline "
+                    className="text-white dark:text-white hover:underline"
                     aria-current="page"
                   >
                     Juice
@@ -41,7 +41,7 @@ export default function Home() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-900 dark:text-white hover:underline"
+                    className="text-white dark:text-white hover:underline"
                   >
                     Noodles
                   </a>
@@ -49,7 +49,7 @@ export default function Home() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-900 dark:text-white hover:underline"
+                    className="text-white dark:text-white hover:underline"
                   >
                     Food
                   </a>
@@ -57,7 +57,7 @@ export default function Home() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-900 dark:text-white hover:underline"
+                    className="text-white dark:text-white hover:underline"
                   >
                     Appetizar
                   </a>
@@ -65,7 +65,7 @@ export default function Home() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-900 dark:text-white hover:underline "
+                    className="text-white dark:text-white hover:underline"
                   >
                     Set Menu
                   </a>
@@ -73,7 +73,7 @@ export default function Home() {
                 <li>
                   <a
                     href="#"
-                    className="text-gray-900 dark:text-white hover:underline"
+                    className="text-white dark:text-white hover:underline"
                   >
                     Traditional Food
                   </a>
@@ -119,17 +119,17 @@ export default function Home() {
             </tbody>
           </table>
         </div>
-        <div className="mt-5 mb-1 "><br /><br /><br /><br /><br /><br /><br /><br />
+        <div className="mt-5 mb-1 "><br /><br /><br /><br /><br /><br /><br /><br /><br />
           <div className="flex justify-around  text-sm md:text-lg  ">
             <div className=" md:w-10 md:h-5 sm:w-10">
               <button
                 type="button"
-                className="text-gray-900 text-sm min-w-32  bg-cyan-500 hover:text-white hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full px-2 py-2 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800" >
+                className="text-white text-sm min-w-32  bg-cyan-500 hover:text-white hover:bg-cyan-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full px-2 py-2 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800" >
                 Back to Menu
               </button>
             </div>
             <div className="">
-                <button type="button" className="text-gray-900 min-w-32  hover:text-white border border-cyan-500 hover:bg-cyan-500 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-full text-sm px-2 py-2 text-center me-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-cyan-500 dark:focus:ring-cyan-900">Send Order</button>
+                <button type="button" className="text-cyan-500 min-w-32  hover:text-white border border-cyan-500 hover:bg-cyan-500 focus:ring-4 focus:outline-none focus:ring-cyan-300 font-medium rounded-full text-sm px-2 py-2 text-center me-2 mb-2 dark:border-purple-400 dark:text-cyan-400 dark:hover:text-white dark:hover:bg-cyan-500 dark:focus:ring-cyan-900">Send Order</button>
             </div>
           </div>
         </div>
